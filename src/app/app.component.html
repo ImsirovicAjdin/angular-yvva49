@@ -1,4 +1,15 @@
-
-<p>
-  Start editing to see some magic happen :)
-</p>
+<h1>Frontends:</h1>
+<table>
+  <tr>
+    <th>#</th>
+    <th>Name</th>
+    <th>Type</th>
+    <th>Current Version</th>
+  </tr>
+  <tr *ngFor="let f of frontends; let i = index ">
+    <td>{{ i + 1 }}</td>
+    <td>{{ f.name }}</td>
+    <td>{{ f.details.type }}</td>
+    <td>{{ f.details.versions.current }}</td>
+  </tr>
+</table>

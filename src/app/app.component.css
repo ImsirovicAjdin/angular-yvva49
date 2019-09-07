@@ -1,3 +1,11 @@
 p {
   font-family: Lato;
 }
+table {
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+th,td {
+   border: 1px solid black;
+   padding: 5px;
+}
